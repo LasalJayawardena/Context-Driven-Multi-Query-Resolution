@@ -1,0 +1,170 @@
+{
+    "chat_history_2024-12-10_14-55-00": {
+        "what other explanation do you suggest for my use case ?": {
+            "reasonability_score": "8.5" , "explanation": "The system's response was reasonable for the clarification question 'What other explanation do you suggest for my use case?' The Grad-CAM explanation provided a clear and concise overview of the model's decision-making process, and the SHAP explanation offered a different perspective on feature importance. The LIME explanation was also helpful in understanding the model's decision-making process. However, the system could have provided more detailed information about the specific features used in the model. Overall, the system's responses were well-structured and easy to understand, and it provided a good balance of different explanations for the user to consider."
+        }
+    },
+    "chat_history_2024-12-11_08-07-05": {
+        "explain what is counterfactuals with an image": {
+            "reasonability_score": "8.2" ,"explanation": "Counterfactual explanations help you understand how to change an input to achieve a different outcome from an AI model. They provide insights into what minimal changes to the input data would lead to a different prediction. "
+        }
+    },
+    "chat_history_2024-12-12_08-16-47": {
+        "what is the difference between SHAP and LIME": {
+            "reasonability_score": "8.5" ,"explanation": "The reasonability score for the Telecom notes diagnosis (BT) question is based on the LIME-based explainers used in the conversation. The LIME-based explainers provided a global and local feature influence explanations for the user's questions."
+        }
+    },
+    "chat_history_2024-12-13_10-11-29": {
+        "give me 2 other types of explanation of the result": {
+            "reasonability_score": "6" ,"explanation": "Explainers were provided for the explanation."
+        }
+    },    
+    "chat_history_2024-12-15_12-31-56": {
+        "I need a table of all other alternatives explainers that could be used instead of this": {
+            "reasonability_score": "8" ,"explanation": "The LIME technique was used to explain the feature importance of the model. The model's output was compared to a reference activation to determine the importance of each feature. The LIME technique provides a unified measure of feature importance based on cooperative game theory. "
+        }
+    },
+    "chat_history_2025-01-06_02-20-55": {
+        "What is the mat behind it": {
+            "reasonability_score": "8.5" ,"explanation": "The system's response to the clarification question was reasonable."
+        }
+    },
+    "chat_history_2025-01-06_02-23-29": {
+        "Explain hwo the expmantion was generated": {
+            "reasonability_score": "8.5" ,"explanation": "The reasonability_score was determined by analyzing the context of the conversation with the clarification interaction. "
+        }
+    },
+    "chat_history_2025-01-06_02-26-15": {
+        "How did you come to this conclusion": {
+            "reasonability_score": "8.5" ,"explanation": "The system's reasonability score was determined based on the context of the conversation with the clarification interaction."
+        },
+        "Explain whats shown in the image above": {
+            "reasonability_score": "9.2" ,"explanation": "The system's reasonability score was determined based on the context of the conversation with the clarification interaction."
+        }
+    },
+    "chat_history_2025-01-06_02-30-13": {
+
+    },
+    "chat_history_2025-01-06_02-33-49": {
+        "explain the metrics and how trustworty the system is": {
+            "reasonability_score": "8.5" ,"explanation": "The system's reasonability score was determined based on the context of the conversation with the clarification interaction."
+        }
+    },
+    "chat_history_2025-01-06_02-35-07": {
+        "how was the AI able to do this": {
+            "reasonability_score": "9" ,"explanation": "The system's response was also reasonable for the clarification question."
+        }
+    },
+    "chat_history_2025-01-06_02-39-57": {
+        "Explain how the above was geenrated and what it tells us": {
+            "reasonability_score": "8" ,"explanation": "The explanation provides a detailed breakdown of the model's decision-making process, highlighting the most important words and their contributions to the prediction. "
+        }
+    },
+    "chat_history_2025-01-06_13-55-29": {
+        "explain me what the image above mean": {
+            "reasonability_score": "8.5" ,"explanation": "The system's response to the clarification question was reasonable."
+        },
+        "what other way of explaining could I use ?": {
+            "reasonability_score": "8.5" ,"explanation": "he system's response to the clarification question was reasonable."
+        }
+    },
+    "chat_history_2025-01-06_13-59-22": {
+        "give me other explanation methods": {
+            "reasonability_score": "8" ,"explanation": "The reasonability score for this clarification question is based on the context of the conversation."
+        }
+    },
+    "chat_history_2025-01-06_14-00-25": {
+
+    },
+    "chat_history_2025-01-06_14-06-17": {
+        "what does the measure mean ?": {
+            "reasonability_score": "8.5" ,"explanation": "The reasonability score for the LLM response was determined by analyzing the context of the conversation."
+        },
+        "explain how integrated gradients work in very simple terms": {
+            "reasonability_score": "8.5" ,"explanation": "The reasonability score for the LLM response was determined by analyzing the context of the conversation"
+        }
+    },
+    "chat_history_2025-01-06_14-14-06": {
+        "give me insights about how lime explain that the result will be the same for similar instance": {
+            "reasonability_score": "8.5" ,"explanation": "The system's response was reasonable for the given clarification question."
+        },        
+        "what is tf-idf here ?": {
+            "reasonability_score": "8" ,"explanation": "The system's response was reasonable for the given clarification question."
+        }
+    },
+    "chat_history_2025-01-06_14-30-56": {
+        "what do the colors mean when the result is different ?": {
+            "reasonability_score": "9" ,"explanation": "The reasonability_score was determined by analyzing the context of the conversation."
+        }
+    },
+    "chat_history_2025-01-06_15-05-27": {
+        "can you propose alternative explanation method ?": {
+            "reasonability_score": "8" ,"explanation": "he system's response was reasonable for the clarification question."
+        },
+        "que signifie unune influence negative sur le resultat ?": {
+            "reasonability_score": "9" ,"explanation": "The system's response was reasonable for the clarification question 'que signifie un mot ayant une influence negative sur le resultat?'. The LIME explanation provided a clear and concise overview of the different methods used to explain the AI model's behavior"
+        }
+    },
+    "chat_history_2025-01-06_16-34-05": {
+        "no": {
+            "reasonability_score": "8" ,"explanation": "he system's response was reasonable for the clarification question 'no'. "
+        },
+        "quelle est l'influence des mots surlignes dans l'explication ci-dessus?": {
+            "reasonability_score": "8.5" ,"explanation": "The system used the LIME technique to explain the TF-IDF scores, which indicate the importance of each word in the context of the text. The scores were then used to determine the reasonability score. The explanation provided by the system was sufficient, but could be improved by providing more context and details about the specific application and the relevant features used by the AI system."
+        }
+    },
+    "chat_history_2025-01-09_16-52-50": {
+        "I didn't understand the description, only the details": {
+            "reasonability_score": "8" ,"explanation": "The LIME technique was used to explain the AI model's reasoning process. The explanation provided a table showing the similarity scores for different classes, top keywords used in the query, keywords in similar texts, and overlapping words. The explanation also highlighted words that were present in the query but not in similar texts."
+        }
+    },
+    "chat_history_2025-01-09_17-03-45": {
+        "What are the numbers in brackets in the third row? And can you improve the clarity of the explanation description?": {
+            "reasonability_score": "8" ,"explanation": "The LIME technique was used to explain the model's decision. The explanation provided a detailed breakdown of the similarity per class, top keywords, and overlapping words. The model's reliability was supported by the consistent use of these features across similar instances. The explanation also provided a clear and concise explanation of the model's decision-making process."
+        },
+        "How reliable is this prediction?": {
+            "reasonability_score": "8" ,"explanation": "he model's reliability was supported by the consistent use of these features across similar instances. The explanation also provided a clear and concise explanation of the model's decision-making process."
+        }
+    },
+    "chat_history_2025-01-09_17-12-50": {
+        "what do precision and recall mean, and how do they relate to the overall accuracy?": {
+            "reasonability_score": "8.5" ,"explanation": "The reasonability score of 8.5 indicates that the system's response to the user's clarification question was reasonable."
+        }
+    },   
+    "chat_history_2025-01-09_17-24-45": {
+        "How can a loan application be decided based on the amount that you've paid back on the loan? That doesn't make any logical sense.": {
+            "reasonability_score": "8" ,"explanation": "The system's reasonability score was determined by analyzing the user's interaction with the system."
+        },
+        "Don't give me the value in terms of the model parameters/features, give me the data value.": {
+            "reasonability_score": "6" ,"explanation": "The system's reasonability score was determined by analyzing the user's interaction with the system prior to the clarification interaction."
+        }
+    },
+    "chat_history_2025-01-09_17-27-41": {
+        
+    },
+    
+    "chat_history_2025-01-10_10-49-09": {
+        
+    },
+    
+    "chat_history_2025-01-10_16-14-18": {
+        "hat is the sensor measuring?": {
+            "reasonability_score": "8" ,"explanation": "The reasonability score for the LLM response is based on the context of the conversation."
+        },
+        "I still don't understand what the sensor is measuring. What is the picture of?": {
+            "reasonability_score": "7" ,"explanation": "The reasonability score for this clarification question is based on the context of the conversation."
+        }
+    },
+
+    "chat_history_2025-01-14_14-03-28": {
+        "What is fluidity": {
+            "reasonability_score": "8" ,"explanation": "he system's response to the clarification question 'What is fluidity?' was reasonable. The explanation provided by LIME Technique was clear and concise, and it effectively addressed the user's question."
+        }
+    },
+    "chat_history_2025-01-14_14-07-38": {
+        "Please elaborate": {
+            "reasonability_score": "8" , "explanation": "The system's response was reasonable for the clarification question 'Why does the AI system have given outcome A?'. The LIME technique was used to explain the model's decision-making process, and the highlighted words in the text provided a clear understanding of the most important features influencing the prediction."
+        }
+    }
+    
+}

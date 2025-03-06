@@ -1,0 +1,170 @@
+{
+    "chat_history_2024-12-10_14-55-00": {
+        "what other explanation do you suggest for my use case ?": {
+            "reasonability_score": "9" , "explanation": "The response provided a comprehensive overview of alternative explanation methods suitable for the Jiva Fracture Detection System. It mentioned SHAP and LIME techniques, which are well-regarded in the field for their ability to provide insights into feature importance and model decision-making processes. The explanation was clear, detailed, and directly relevant to the user's query, making it highly reasonable."
+        }
+    },
+    "chat_history_2024-12-11_08-07-05": {
+        "explain what is counterfactuals with an image": {
+            "reasonability_score": "9" ,"explanation": "The response provides a comprehensive explanation of counterfactuals, including their purpose and how they apply to both tabular data and images. It uses clear examples and describes the ISee Platform's capabilities for generating counterfactuals, making it highly informative and relevant to the user's query."
+        }
+    },
+    "chat_history_2024-12-12_08-16-47": {
+        "what is the difference between SHAP and LIME": {
+            "reasonability_score": "10" ,"explanation": "The response provided a clear and comprehensive comparison of SHAP and LIME, explaining their theoretical foundations, computational requirements, and specific functionalities within the ISee Platform. It highlighted how each method contributes to model interpretability and offered insights into the available explainers for tabular data. This level of detail and clarity in differentiating between the two techniques demonstrates a high understanding and effective communication of complex AI concepts."
+        }
+    },
+    "chat_history_2024-12-13_10-11-29": {
+        "give me 2 other types of explanation of the result": {
+            "reasonability_score": "8" ,"explanation": "The system provided two well-structured explanations using Saliency Maps and SHAP (SHapley Additive exPlanations). Each explanation was detailed and offered different perspectives on how the AI model makes its decisions, demonstrating a comprehensive understanding of the available explainers."
+        }
+    },    
+    "chat_history_2024-12-15_12-31-56": {
+        "I need a table of all other alternatives explainers that could be used instead of this": {
+            "reasonability_score": "8" ,"explanation": "Here are some alternative explainability techniques that can be used instead of the current method:\\n    1. SHAP (SHapley Additive exPlanations): Provides a unified measure of feature importance based on cooperative game theory. The ISee Platform includes several SHAP explainers such as '/Images/KernelSHAP' and '/Tabular/TreeSHAPGlobal', which users can try out to visualize feature importance through saliency maps and feature influence explanations.\\n    2. DeepLIFT (Deep Learning Important FeaTures): Assigns importance scores to each input feature by comparing the activation of each neuron to a reference activation. While the ISee Platform does not have a specific DeepLIFT explainer, users can explore similar techniques like '/Images/RISE' and '/Images/GradCam' for saliency maps.\\n    3. Integrated Gradients: Computes the integral of gradients of the model's output with respect to the inputs along the path from a baseline to the input. The ISee Platform offers gradient-based techniques such as '/Images/GradientInput' and '/Images/SmoothGrad' for generating saliency maps.\\n    4. Anchor Explanations: Provides high-precision rules (anchors) that sufficiently explain the behavior of the model for a particular instance. Users can explore the '/Tabular/Anchors' explainer on the ISee Platform to generate anchor explanations for tabular data.\\n    5. Counterfactual Explanations: Identifies minimal changes to the input that would change the model's prediction to a desired output. The ISee Platform includes counterfactual explainers like '/Tabular/DicePublic' and '/Tabular/DisCERN', which users can utilize to generate counterfactual explanations."
+        }
+    },
+    "chat_history_2025-01-06_02-20-55": {
+        "What is the mat behind it": {
+            "reasonability_score": "8" ,"explanation": "The system's response was highly reasonable as it provided a detailed explanation using SSIM techniques to explain image similarity and AI decision-making processes. The use of visual examples and technical explanations about different explainers in the Isee Platform demonstrated a comprehensive understanding of the user's query and the capabilities of the AI system."
+        }
+    },
+    "chat_history_2025-01-06_02-23-29": {
+        "Explain hwo the expmantion was generated": {
+            "reasonability_score": "8" ,"explanation": "The response provided a direct answer to the accuracy of the AI system using a table with the assessment metric and value. It also briefly mentioned other explainers available on the platform, which adds context but doesn't directly answer the question. The explanation is clear and relevant, making it highly reasonable."
+        }
+    },
+    "chat_history_2025-01-06_02-26-15": {
+        "How did you come to this conclusion": {
+            "reasonability_score": "9" ,"explanation": "The response was highly reasonable as it provided a detailed explanation using the DisCERN technique. It clearly outlined the factors considered and how they influenced the decision, including a comparison with a counterfactual scenario. This level of detail and clarity in explaining the AI's reasoning process is valuable for users seeking to understand the system's decision-making."
+        },
+        "Explain whats shown in the image above": {
+            "reasonability_score": "8" ,"explanation": "The explanation was quite reasonable as it broke down the LIME technique's findings in a structured manner. It explained the prediction probabilities and detailed how specific features contributed to the rejection and acceptance outcomes. The inclusion of a table with feature values added context to the explanation, making it comprehensive and informative."
+        }
+    },
+    "chat_history_2025-01-06_02-30-13": {
+
+    },
+    "chat_history_2025-01-06_02-33-49": {
+        "explain the metrics and how trustworty the system is": {
+            "reasonability_score": "8" ,"explanation": "The response provided a clear explanation of the F1-score and accuracy metrics, which are key indicators of the AI system's performance. It also contextualized these metrics by mentioning their balance between precision and recall, and their implications for trustworthiness. The explanation was concise yet informative, making it reasonable for a user with varying levels of AI knowledge."
+        }
+    },
+    "chat_history_2025-01-06_02-35-07": {
+        "how was the AI able to do this": {
+            "reasonability_score": "8" ,"explanation": "The system's response provided a clear explanation using the LIME technique. It highlighted specific words from the text that contributed significantly to the outcome, demonstrating an understanding of the importance of context in the AI's decision-making process. The use of LIME is appropriate for this scenario as it offers insights into feature contributions, which is crucial for understanding AI decisions in complex text data."
+        }
+    },
+    "chat_history_2025-01-06_02-39-57": {
+        "Explain how the above was geenrated and what it tells us": {
+            "reasonability_score": "9" ,"explanation": "The explanation provided is generated using the LIME technique. This method helps in understanding the predictions made by an AI model by highlighting the most important words in the given text instance that contribute to the predicted outcome. In the image, you can see a plot that displays the prediction probabilities for different classes, with 'C02' having the highest probability. The highlighted words in the text are those that have the most significant impact on the prediction. For instance, words like 'EU,' 'put,' 'ug,' and 'feed' are shown with their respective contributions to the prediction. This visualization helps in understanding which features (words) are most influential in the model\\'s decision-making process, providing transparency and insight into how the AI system arrived at its conclusion. The ISee Platform has similar explainers, such as '/Text/LIME', which perturbs the input data samples to train a simple model that approximates the prediction for the given instance and similar ones. This explanation contains the weight of each word to the prediction value. Users can try out these explainers to gain further insights into their models."
+        }
+    },
+    "chat_history_2025-01-06_13-55-29": {
+        "explain me what the image above mean": {
+            "reasonability_score": "9" ,"explanation": "The response provided a clear and concise explanation of the image using the Structural Similarity Index Measure (SSIM) Nearest Neighbours technique. It described the original image's classification and compared it with three similar images, highlighting their similarity scores and predictions. This explanation effectively aids in understanding which features might influence the prediction, making it highly reasonable."
+        },
+        "what other way of explaining could I use ?": {
+            "reasonability_score": "9" ,"explanation": "The response offered a comprehensive overview of various explanation techniques available, including Feature Importance, Decision Trees, Rule-Based Explanations, Counterfactual Explanations, and Visualizations. It provided specific examples of explainers within the Isee Platform for each method, making it highly reasonable as it not only lists options but also guides the user on how to explore these methods."
+        }
+    },
+    "chat_history_2025-01-06_13-59-22": {
+        "give me other explanation methods": {
+            "reasonability_score": "9" ,"explanation": "The system provided a comprehensive list of alternative explanation methods, including SHAP and counterfactual explanations, along with specific examples of explainers available in the ISee Platform. This response was well-structured and informative, offering clear insights into different techniques for understanding model behavior."
+        }
+    },
+    "chat_history_2025-01-06_14-00-25": {
+
+    },
+    "chat_history_2025-01-06_14-06-17": {
+        "what does the measure mean ?": {
+            "reasonability_score": "10" ,"explanation": "The system's response accurately interprets the accuracy metric as a measure of how often the AI system makes correct predictions. It correctly explains that an accuracy of 99 means the AI system is highly reliable in its predictions."
+        },
+        "explain how integrated gradients work in very simple terms": {
+            "reasonability_score": "8" ,"explanation": "The response provides a clear and concise explanation of Integrated Gradients, using an analogy with an image to illustrate the concept. It mentions the technique's ability to highlight important areas in an image for AI decision-making. However, the repetition of the same explanation for this question suggests redundancy, which slightly lowers the score."
+        }
+    },
+    "chat_history_2025-01-06_14-14-06": {
+        "give me insights about how lime explain that the result will be the same for similar instance": {
+            "reasonability_score": "8" ,"explanation": "The LIME explainer highlights the most influential words in the text instance. For similar instances, if these key words appear with similar context and frequency, the AI system is likely to produce the same or similar outcomes. The highlighted words in the text indicate their importance in the decision-making process, showing how they affect the prediction. This explanation provides a clear understanding of how LIME contributes to model predictions, making it highly reasonable."
+        },        
+        "what is tf-idf here ?": {
+            "reasonability_score": "9" ,"explanation": "TF-IDF stands for Term Frequency-Inverse Document Frequency. It evaluates the importance of a word in a document relative to a corpus. In the context of the explanation, TF-IDF is used to identify and score the top keywords in the text instance, highlighting which words are most significant in determining the AI system's outcome. This scoring method helps users understand how TF-IDF contributes to model predictions, making it a very reasonable explanation."
+        }
+    },
+    "chat_history_2025-01-06_14-30-56": {
+        "what do the colors mean when the result is different ?": {
+            "reasonability_score": "9" ,"explanation": "The system provided a clear and concise explanation using visual aids. It accurately described how the colors in the image represent the attributions for the target class, indicating areas of high and low importance in the AI's decision-making process. This explanation effectively utilized the context of Integrated Gradients Technique to enhance understanding."
+        }
+    },
+    "chat_history_2025-01-06_15-05-27": {
+        "can you propose alternative explanation method ?": {
+            "reasonability_score": "8" ,"explanation": "Each clarification question is scored based on its clarity and relevance to the user's understanding."
+        },
+        "que signifie unune influence negative sur le resultat ?": {
+            "reasonability_score": "9" ,"explanation": "A word with a negative influence on the result means that it contributes to decreasing the likelihood of the predicted outcome. In the context of the explanation provided, words highlighted in blue have a negative impact on the prediction. This means that these words are associated with reducing the confidence in the predicted class. The influence of each word is determined by its weight or score, which indicates how much it affects the prediction either positively or negatively."
+        }
+    },
+    "chat_history_2025-01-06_16-34-05": {
+        "no": {
+            "reasonability_score": "8" ,"explanation": "The numbers associated with each word represent their TF-IDF scores, which indicate the importance of each word in the context of the text. Higher scores suggest that the word is more significant in distinguishing the text from others. Regarding the relevance of scores, typically, higher scores are more relevant, but the context of the analysis and the specific application can influence what is considered 'relevant enough'. If you're interested in alternative explanation methods, there are various approaches such as visualizations, simplified summaries, or using different algorithms that might provide a different perspective on the data. For instance, the ISee Platform offers explainers like '/Text/LIME', which perturbs the input data samples to train a simple model that approximates the prediction for the given instance and similar ones. This method provides a chart or table displaying the weight of each word to the prediction value. You can try out these explainers on the ISee Platform for a more detailed understanding."
+        },
+        "quelle est l'influence des mots surlignes dans l'explication ci-dessus?": {
+            "reasonability_score": "9" ,"explanation": "The words overlined in the explanation represent the terms most influential in the prediction. Each word has a contribution, either positive or negative, to the predicted outcome. For example, words like 'planned', 'solution', and 'requires' have a significant influence on the classification of the instance. The scores next to each word indicate the relative importance of that word in the context of the prediction."
+        }
+    },
+    "chat_history_2025-01-09_16-52-50": {
+        "I didn't understand the description, only the details": {
+            "reasonability_score": "8" ,"explanation": "The clarification answer is scored based on its clarity and relevance to the user's understanding. Score of 8 is highly reasonable."
+        }
+    },
+    "chat_history_2025-01-09_17-03-45": {
+        "What are the numbers in brackets in the third row? And can you improve the clarity of the explanation description?": {
+            "reasonability_score": "8" ,"explanation": "The numbers in brackets represent the TF-IDF scores of the top keywords used in the query. Higher scores indicate that the word is more significant in the context of the document. To improve clarity, the explanation should explicitly state what each section represents: Similarity per Class, Top Keywords, Keywords per Class, and Overlapping Words."
+        },
+        "How reliable is this prediction?": {
+            "reasonability_score": "7" ,"explanation": "The prediction reliability can be assessed by examining the confidence scores and the features used in the model. A high confidence score of 1.00 indicates strong certainty in this outcome. The highlighted words contribute to this prediction. While individual contributions may seem small, they collectively influence the model's decision. Additional context or data might help validate the prediction."
+        }
+    },
+    "chat_history_2025-01-09_17-12-50": {
+        "what do precision and recall mean, and how do they relate to the overall accuracy?": {
+            "reasonability_score": "10" ,"explanation": "The system's response accurately defines precision and recall, explaining their roles in evaluating AI performance. It also correctly links these metrics to overall accuracy, providing a comprehensive understanding of how these measures are interconnected. The explanation is clear, concise, and directly addresses the user's query."
+        }
+    },   
+    "chat_history_2025-01-09_17-24-45": {
+        "How can a loan application be decided based on the amount that you've paid back on the loan? That doesn't make any logical sense.": {
+            "reasonability_score": "8" ,"explanation": "The system's response effectively explains how 'total_pymnt' reflects repayment history and its importance in creditworthiness assessment. It acknowledges that 'total_pymnt' is one of many factors considered, providing a balanced view of the decision-making process."
+        },
+        "Don't give me the value in terms of the model parameters/features, give me the data value.": {
+            "reasonability_score": "7" ,"explanation": "The response initially provides a threshold value related to 'total_pymnt', but it does not directly translate this into a specific data value. A more reasonable answer would explicitly state the data value for 'total_pymnt' that influences the decision, such as '0.06', making it clearer and more direct."
+        }
+    },
+    "chat_history_2025-01-09_17-27-41": {
+        
+    },
+    
+    "chat_history_2025-01-10_10-49-09": {
+        
+    },
+    
+    "chat_history_2025-01-10_16-14-18": {
+        "hat is the sensor measuring?": {
+            "reasonability_score": "5" ,"explanation": "The system's response was not able to provide a clear answer to what the sensor is measuring. It returned an apology message, indicating that it lacks the necessary information or capability to respond to this query. This score reflects the system's inability to fulfill the user's request with the context provided."
+        },
+        "I still don't understand what the sensor is measuring. What is the picture of?": {
+            "reasonability_score": "7" ,"explanation": "The system provided a detailed explanation using the Integrated Gradients technique to explain the AI model's decision-making process. While it didn't directly answer the question about what the sensor measures, it offered insights into how the AI interprets the image, which is valuable information for understanding the system's predictions."
+        }
+    },
+
+    "chat_history_2025-01-14_14-03-28": {
+        "What is fluidity": {
+            "reasonability_score": "8" ,"explanation": "The system's response accurately interprets 'fluidity' as part of a workflow or task management system, aligning with the context provided in the AI model's explanation. It references specific activities and their progression, which is relevant to understanding the overall process described."
+        }
+    },
+    "chat_history_2025-01-14_14-07-38": {
+        "Please elaborate": {
+            "reasonability_score": "8" , "explanation": "The response provided a detailed explanation using the LIME technique to highlight important words and their contributions to the AI system's outcome. It also mentioned the ISee Platform's explainer '/Text/LIME' and its functionality, which is relevant and informative for understanding text classification models."
+        }
+    }
+    
+}

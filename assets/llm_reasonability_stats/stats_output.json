@@ -1,0 +1,308 @@
+{
+    "what other explanation do you suggest for my use case ?": {
+        "average": 8.335714285714285,
+        "variance": 1.1211697722567284,
+        "std_dev": 1.058853045637934,
+        "iqr": 1.0,
+        "min": 4.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "explain what is counterfactuals with an image": {
+        "average": 8.302857142857144,
+        "variance": 1.4292670807453418,
+        "std_dev": 1.1955195860985892,
+        "iqr": 1.0,
+        "min": 5.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "what is the difference between SHAP and LIME": {
+        "average": 9.035714285714286,
+        "variance": 0.6545031055900623,
+        "std_dev": 0.8090136621776312,
+        "iqr": 1.0,
+        "min": 7.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "give me 2 other types of explanation of the result": {
+        "average": 8.714285714285714,
+        "variance": 0.8157349896480331,
+        "std_dev": 0.9031804856439455,
+        "iqr": 1.0,
+        "min": 6.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "I need a table of all other alternatives explainers that could be used instead of this": {
+        "average": 8.67142857142857,
+        "variance": 0.5426501035196688,
+        "std_dev": 0.7366478829940861,
+        "iqr": 1.0,
+        "min": 7.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "What is the mat behind it": {
+        "average": 6.935714285714286,
+        "variance": 3.8834886128364388,
+        "std_dev": 1.9706568988122815,
+        "iqr": 1.0,
+        "min": 3.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "Explain hwo the expmantion was generated": {
+        "average": 8.535714285714286,
+        "variance": 0.509575569358178,
+        "std_dev": 0.7138456201155667,
+        "iqr": 1.0,
+        "min": 7.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "How did you come to this conclusion": {
+        "average": 8.49,
+        "variance": 0.5316376811594202,
+        "std_dev": 0.729134885435761,
+        "iqr": 1.0,
+        "min": 6.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "Explain whats shown in the image above": {
+        "average": 8.714285714285714,
+        "variance": 0.5212422360248448,
+        "std_dev": 0.7219710770002111,
+        "iqr": 1.0,
+        "min": 7.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "explain the metrics and how trustworty the system is": {
+        "average": 8.278571428571428,
+        "variance": 0.461128364389234,
+        "std_dev": 0.6790643300816455,
+        "iqr": 1.0,
+        "min": 6.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "how was the AI able to do this": {
+        "average": 8.314285714285715,
+        "variance": 0.47950310559006215,
+        "std_dev": 0.6924616275217438,
+        "iqr": 1.0,
+        "min": 6.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "Explain how the above was geenrated and what it tells us": {
+        "average": 8.728571428571428,
+        "variance": 0.46149068322981385,
+        "std_dev": 0.6793310556936242,
+        "iqr": 1.0,
+        "min": 7.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "explain me what the image above mean": {
+        "average": 8.714285714285714,
+        "variance": 0.4461697722567287,
+        "std_dev": 0.6679594091385559,
+        "iqr": 1.0,
+        "min": 7.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "what other way of explaining could I use ?": {
+        "average": 8.678571428571429,
+        "variance": 0.659679089026915,
+        "std_dev": 0.8122063093986127,
+        "iqr": 1.0,
+        "min": 7.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "give me other explanation methods": {
+        "average": 8.614285714285714,
+        "variance": 1.2548654244306412,
+        "std_dev": 1.120207759494033,
+        "iqr": 1.0,
+        "min": 2.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "what does the measure mean ?": {
+        "average": 8.592857142857143,
+        "variance": 1.6905279503105592,
+        "std_dev": 1.300203041955586,
+        "iqr": 1.0,
+        "min": 4.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "explain how integrated gradients work in very simple terms": {
+        "average": 8.42142857142857,
+        "variance": 0.8524327122153207,
+        "std_dev": 0.9232728265335879,
+        "iqr": 1.0,
+        "min": 5.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "give me insights about how lime explain that the result will be the same for similar instance": {
+        "average": 8.45,
+        "variance": 0.39239130434782615,
+        "std_dev": 0.6264114497259977,
+        "iqr": 1.0,
+        "min": 7.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "what is tf-idf here ?": {
+        "average": 8.714285714285714,
+        "variance": 0.8157349896480331,
+        "std_dev": 0.9031804856439455,
+        "iqr": 1.0,
+        "min": 7.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "what do the colors mean when the result is different ?": {
+        "average": 8.842857142857143,
+        "variance": 0.4821946169772257,
+        "std_dev": 0.6944023451697335,
+        "iqr": 1.0,
+        "min": 7.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "can you propose alternative explanation method ?": {
+        "average": 8.607142857142858,
+        "variance": 0.673136645962733,
+        "std_dev": 0.8204490514119284,
+        "iqr": 1.0,
+        "min": 5.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "que signifie unune influence negative sur le resultat ?": {
+        "average": 8.714285714285714,
+        "variance": 0.6997929606625259,
+        "std_dev": 0.836536287714123,
+        "iqr": 1.0,
+        "min": 7.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "no": {
+        "average": 6.8428571428571425,
+        "variance": 3.0619047619047617,
+        "std_dev": 1.7498299237082333,
+        "iqr": 2.0,
+        "min": 2.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "quelle est l'influence des mots surlignes dans l'explication ci-dessus?": {
+        "average": 8.621428571428572,
+        "variance": 0.64083850931677,
+        "std_dev": 0.8005238967805833,
+        "iqr": 1.0,
+        "min": 7.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "I didn't understand the description, only the details": {
+        "average": 8.071428571428571,
+        "variance": 0.7919254658385094,
+        "std_dev": 0.8899019416983589,
+        "iqr": 1.0,
+        "min": 5.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "What are the numbers in brackets in the third row? And can you improve the clarity of the explanation description?": {
+        "average": 8.321428571428571,
+        "variance": 0.8408385093167702,
+        "std_dev": 0.9169724692250963,
+        "iqr": 1.0,
+        "min": 5.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "How reliable is this prediction?": {
+        "average": 8.192857142857143,
+        "variance": 0.8934265010351966,
+        "std_dev": 0.945212410538074,
+        "iqr": 1.0,
+        "min": 5.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "what do precision and recall mean, and how do they relate to the overall accuracy?": {
+        "average": 9.05,
+        "variance": 0.5518115942028985,
+        "std_dev": 0.7428402211800991,
+        "iqr": 1.0,
+        "min": 7.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "How can a loan application be decided based on the amount that you've paid back on the loan? That doesn't make any logical sense.": {
+        "average": 7.671428571428572,
+        "variance": 1.0354037267080747,
+        "std_dev": 1.0175478989748221,
+        "iqr": 1.0,
+        "min": 4.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "Don't give me the value in terms of the model parameters/features, give me the data value.": {
+        "average": 6.885714285714286,
+        "variance": 4.04472049689441,
+        "std_dev": 2.0111490489007546,
+        "iqr": 2.0,
+        "min": 2.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "hat is the sensor measuring?": {
+        "average": 3.3142857142857145,
+        "variance": 4.9432712215320915,
+        "std_dev": 2.2233468513779155,
+        "iqr": 3.0,
+        "min": 0.0,
+        "max": 8.0,
+        "count": 70
+    },
+    "I still don't understand what the sensor is measuring. What is the picture of?": {
+        "average": 7.557142857142857,
+        "variance": 1.554658385093168,
+        "std_dev": 1.2468594087118114,
+        "iqr": 1.0,
+        "min": 3.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "What is fluidity": {
+        "average": 7.871428571428571,
+        "variance": 0.6064182194616978,
+        "std_dev": 0.778728591655461,
+        "iqr": 1.0,
+        "min": 5.0,
+        "max": 10.0,
+        "count": 70
+    },
+    "Please elaborate": {
+        "average": 8.514285714285714,
+        "variance": 0.9780538302277432,
+        "std_dev": 0.9889660409881338,
+        "iqr": 1.0,
+        "min": 4.0,
+        "max": 10.0,
+        "count": 70
+    }
+}

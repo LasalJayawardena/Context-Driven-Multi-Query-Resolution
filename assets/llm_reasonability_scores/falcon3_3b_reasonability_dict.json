@@ -1,0 +1,170 @@
+{
+    "chat_history_2024-12-10_14-55-00": {
+        "what other explanation do you suggest for my use case ?": {
+            "reasonability_score": "8" , "explanation": "A reasonable explanation was shown in response to query which was detailed."
+        }
+    },
+    "chat_history_2024-12-11_08-07-05": {
+        "explain what is counterfactuals with an image": {
+            "reasonability_score": "9" ,"explanation": "The system's response was highly reasonable. It accurately described counterfactual explanations in the context of images, detailing how minimal changes to input data could lead to different predictions and providing examples using visualization techniques."
+        }
+    },
+    "chat_history_2024-12-12_08-16-47": {
+        "what is the difference between SHAP and LIME": {
+            "reasonability_score": "8" ,"explanation": "The response was highly reasonable. It provided a clear distinction between SHAP and LIME, explaining their methodologies, computational considerations, and how they contribute to model interpretability."
+        }
+    },
+    "chat_history_2024-12-13_10-11-29": {
+        "give me 2 other types of explanation of the result": {
+            "reasonability_score": "8" ,"explanation": "The system provided a detailed explanation using Saliency Maps and SHAP, which effectively highlighted important image features and feature contributions. The response was coherent and informative, aligning well with the user's request for alternative explanations."
+        }
+    },    
+    "chat_history_2024-12-15_12-31-56": {
+        "I need a table of all other alternatives explainers that could be used instead of this": {
+            "reasonability_score": "8" ,"explanation": "The system provided a comprehensive list of alternative explainability techniques, including SHAP, DeepLIFT, Integrated Gradients, Anchor Explanations, and Counterfactual Explanations. The response was detailed, informative, and aligned with the user's request for alternatives to the current method. It included explanations for each technique, making it highly reasonable."
+        }
+    },
+    "chat_history_2025-01-06_02-20-55": {
+        "What is the mat behind it": {
+            "reasonability_score": "9" ,"explanation": "The system provided a detailed explanation using SSIM to identify nearest neighbors and highlight relevant visual features. The response was highly reasonable given the context and available explainers."
+        }
+    },
+    "chat_history_2025-01-06_02-23-29": {
+        "Explain hwo the expmantion was generated": {
+            "reasonability_score": "8" ,"explanation": "The explanation score of 8 indicates a high level of reasonability. The system provided a detailed response using Integrated Gradients and other explainers, which are well-supported methods for understanding image predictions. The explanation covers the methodology used, including gradient-based techniques like Integrated Gradients, SmoothGrad, SquareGrad, and VarGrad, and how these methods help in attributing importance to different regions of an input image. This comprehensive response aligns with best practices for explainable AI, making it a very reasonable explanation for the user."
+        }
+    },
+    "chat_history_2025-01-06_02-26-15": {
+        "How did you come to this conclusion": {
+            "reasonability_score": "8" ,"explanation": "The system provided a detailed explanation using the DisCERN technique, which generated counterfactuals to illustrate why the loan was predicted to be rejected. The explanation included specific features and their contributions, making it highly reasonable."
+        },
+        "Explain whats shown in the image above": {
+            "reasonability_score": "9" ,"explanation": "The LIME technique highlighted key feature contributions to the loan rejection prediction, providing a clear and detailed explanation of the decision-making process. This made the response highly reasonable."
+        }
+    },
+    "chat_history_2025-01-06_02-30-13": {
+
+    },
+    "chat_history_2025-01-06_02-33-49": {
+        "explain the metrics and how trustworty the system is": {
+            "reasonability_score": "9" ,"explanation": "The explanation score of 9 indicates a high level of reasonability."
+        }
+    },
+    "chat_history_2025-01-06_02-35-07": {
+        "how was the AI able to do this": {
+            "reasonability_score": "8" ,"explanation": "The explanation score of 8 indicates a high level of reasonability."
+        }
+    },
+    "chat_history_2025-01-06_02-39-57": {
+        "Explain how the above was geenrated and what it tells us": {
+            "reasonability_score": "8" ,"explanation": "The system provided a detailed explanation using LIME, highlighting important words and their contributions to the prediction. The score reflects a high level of reasonability given the context and explanation provided."
+        }
+    },
+    "chat_history_2025-01-06_13-55-29": {
+        "explain me what the image above mean": {
+            "reasonability_score": "8" ,"explanation": "The system provided a detailed explanation using SSIM Nearest Neighbours, which is reasonable given the context. It compared similar images and their prediction scores, providing insights into what might influence the AI's decision."
+        },
+        "what other way of explaining could I use ?": {
+            "reasonability_score": "9" ,"explanation": "The system's response to this question was highly reasonable. It explained the SSIM Nearest Neighbours technique in detail, comparing similar images and their prediction scores, which aligns well with the user's request for an explanation."
+        }
+    },
+    "chat_history_2025-01-06_13-59-22": {
+        "give me other explanation methods": {
+            "reasonability_score": "9" ,"explanation": "The system effectively explained how LIME, SHAP, and counterfactual explanations work. It highlighted the significance of each method in understanding model predictions, making it an exceptionally reasonable response."
+        }
+    },
+    "chat_history_2025-01-06_14-00-25": {
+
+    },
+    "chat_history_2025-01-06_14-06-17": {
+        "what does the measure mean ?": {
+            "reasonability_score": "9" ,"explanation": "The system provided a detailed explanation of the accuracy metric, indicating its high reliability and relevance to the context. The score is 9, reflecting a very reasonable response given the information available."
+        },
+        "explain how integrated gradients work in very simple terms": {
+            "reasonability_score": "8" ,"explanation": "The system effectively explained Integrated Gradients using a clear analogy and provided relevant examples from the ISee Platform. The score is 8, indicating a highly reasonable explanation given the context."
+        }
+    },
+    "chat_history_2025-01-06_14-14-06": {
+        "give me insights about how lime explain that the result will be the same for similar instance": {
+            "reasonability_score": "9" ,"explanation": "The LIME explanation was comprehensive and reasonable. It correctly highlighted the importance of key words in influencing the AI's prediction for similar instances, aligning with the system's ability to produce consistent results when presented with similar data contexts."
+        },        
+        "what is tf-idf here ?": {
+            "reasonability_score": 8, "explanation": "The explanation provided for the TF-IDF question was detailed and accurate, aligning well with the definition and its application in identifying significant words in a document relative to a corpus. The score reflects a high level of reasonability given the context and the explanation offered."
+        }
+    },
+    "chat_history_2025-01-06_14-30-56": {
+        "what do the colors mean when the result is different ?": {
+            "reasonability_score": "9" ,"explanation": "The system effectively explained what the colors represented in the explanation and provided relevant examples from the ISee Platform."
+        }
+    },
+    "chat_history_2025-01-06_15-05-27": {
+        "can you propose alternative explanation method ?": {
+            "reasonability_score": "8" ,"explanation": "The system provided a comprehensive list of alternative explanation methods, including feature importance, counterfactual explanations, SHAP values, LIME, and visualizations. The response was detailed, informative, and aligned with the user's request for diverse explanation techniques, indicating high reasonability."
+        },
+        "que signifie unune influence negative sur le resultat ?": {
+            "reasonability_score": "9" ,"explanation": "The system accurately defined a word with negative influence on the result as one that decreases the likelihood of the predicted outcome. It provided an example using words highlighted in blue to illustrate this concept, demonstrating a high level of understanding and relevance."
+        }
+    },
+    "chat_history_2025-01-06_16-34-05": {
+        "no": {
+            "reasonability_score": "7" ,"explanation": "The sytem explained adequately for the given question by expanding the previous explanations."
+        },
+        "quelle est l'influence des mots surlignes dans l'explication ci-dessus?": {
+            "reasonability_score": "9" ,"explanation": "The system accurately explained with high reasonability."
+        }
+    },
+    "chat_history_2025-01-09_16-52-50": {
+        "I didn't understand the description, only the details": {
+            "reasonability_score": "8" ,"explanation": "he system provided a detailed breakdown of key points in the explanation, including confidence scores, top keywords, similar text keywords, and overlapping words. This comprehensive response indicates a high level of reasoning and understanding given the context prior to this clarification."
+        }
+    },
+    "chat_history_2025-01-09_17-03-45": {
+        "What are the numbers in brackets in the third row? And can you improve the clarity of the explanation description?": {
+            "reasonability_score": "8" ,"explanation": "The system provided a detailed and clear response, explaining TF-IDF scores and keywords effectively. The explanation structure is logical and easy to understand, indicating high reasonability."
+        },
+        "How reliable is this prediction?": {
+            "reasonability_score": "9" ,"explanation": "The system's response was highly reasonable. It provided a clear assessment of the prediction reliability based on confidence scores and feature contributions, addressing user concerns effectively."
+        }
+    },
+    "chat_history_2025-01-09_17-12-50": {
+        "what do precision and recall mean, and how do they relate to the overall accuracy?": {
+            "reasonability_score": "8" ,"explanation": "The system provided a detailed explanation of precision and recall, their definitions, and how they relate to overall accuracy. It also mentioned the importance of balancing these metrics using the F1-score."
+        }
+    },   
+    "chat_history_2025-01-09_17-24-45": {
+        "How can a loan application be decided based on the amount that you've paid back on the loan? That doesn't make any logical sense.": {
+            "reasonability_score": "8" ,"explanation": "The system provided a detailed explanation about how it evaluates the total payment made back on the loan as a factor in deciding a loan application. The score reflects a high level of reasonability given the context and the explanation provided."
+        },
+        "Don't give me the value in terms of the model parameters/features, give me the data value.": {
+            "reasonability_score": "9" ,"explanation": "The system was able to provide a clear and specific data value related to the total payment made back on the loan that influences the decision. This indicates high reasonability as it directly addresses the user's request for a concrete data value."
+        }
+    },
+    "chat_history_2025-01-09_17-27-41": {
+        
+    },
+    
+    "chat_history_2025-01-10_10-49-09": {
+        
+    },
+    
+    "chat_history_2025-01-10_16-14-18": {
+        "hat is the sensor measuring?": {
+            "reasonability_score": "4" ,"explanation": "The system's response was helpful but lacked specificity. It provided a general explanation of sensor anomaly detection and mentioned Integrated Gradients, which is a valid technique for understanding model decisions. However, it did not directly answer the question about what the sensor is measuring."
+        },
+        "I still don't understand what the sensor is measuring. What is the picture of?": {
+            "reasonability_score": "6" ,"explanation": "The system provided a detailed explanation using Integrated Gradients to highlight important features in the image related to the sensor anomaly detection. While it explained the technique and its application, it did not directly answer the question about what the picture shows."
+        }
+    },
+
+    "chat_history_2025-01-14_14-03-28": {
+        "What is fluidity": {
+            "reasonability_score": "9" ,"explanation": "The system's response was highly reasonable. It provided a clear explanation of fludity in the provided context."
+        }
+    },
+    "chat_history_2025-01-14_14-07-38": {
+        "Please elaborate": {
+            "reasonability_score": "9" , "explanation": "A score of 9 is given which is highly reasonable for the question asked."
+        }
+    }
+    
+}

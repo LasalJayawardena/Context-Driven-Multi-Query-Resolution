@@ -1,0 +1,170 @@
+{
+    "chat_history_2024-12-10_14-55-00": {
+        "what other explanation do you suggest for my use case ?": {
+            "reasonability_score": "9" , "explanation": "This is a very reasonable answer. Given the user's initial request for an explanation and their acceptance of Grad-CAM, it's natural to inquire about alternative methods that might provide a more comprehensive understanding of the model's decision-making process."
+        }
+    },
+    "chat_history_2024-12-11_08-07-05": {
+        "explain what is counterfactuals with an image": {
+            "reasonability_score": "8" ,"explanation": "This answer demonstrates a good understanding of the concept of counterfactuals and their application to images. The user seeks clarification on how these explanations work specifically in the context of visual data."
+        }
+    },
+    "chat_history_2024-12-12_08-16-47": {
+        "what is the difference between SHAP and LIME": {
+            "reasonability_score": "10" ,"explanation": "It is very reasonable as it directly seeks to understand the key distinctions between two popular model interpretability techniques. It demonstrates a clear understanding of the topic and a desire for in-depth knowledge."
+        }
+    },
+    "chat_history_2024-12-13_10-11-29": {
+        "give me 2 other types of explanation of the result": {
+            "reasonability_score": "9" ,"explanation": "The user is asking for alternative methods to explain the AI's decision. This is a reasonable answer as different explanation techniques can provide diverse perspectives on the model's behavior."
+        }
+    },    
+    "chat_history_2024-12-15_12-31-56": {
+        "I need a table of all other alternatives explainers that could be used instead of this": {
+            "reasonability_score": "9" ,"explanation": "This is a very reasonable answer! The user wants to explore different options for explaining the AI model's behavior."
+        }
+    },
+    "chat_history_2025-01-06_02-20-55": {
+        "What is the mat behind it": {
+            "reasonability_score": "4" ,"explanation": "The user's question seems to be based on a misunderstanding of the explanation provided. The explanation focuses on how the AI system uses visual similarity (SSIM) to find similar images and make predictions."
+        }
+    },
+    "chat_history_2025-01-06_02-23-29": {
+        "Explain hwo the expmantion was generated": {
+            "reasonability_score": "8" ,"explanation": "The response accurately describes how Integrated Gradients works and provides additional context about other explainers available on the Isee Platform. It demonstrates a good understanding of the user's question and delivers a comprehensive answer."
+        }
+    },
+    "chat_history_2025-01-06_02-26-15": {
+        "How did you come to this conclusion": {
+            "reasonability_score": "9" ,"explanation": "The AI system arrived at the conclusion of a high probability of loan rejection by analyzing various features of the provided loan application data. It utilized the DisCERN technique, which involves comparing the original data instance with counterfactual scenarios to determine the likelihood of different outcomes."
+        },
+        "Explain whats shown in the image above": {
+            "reasonability_score": "8" ,"explanation": "The image presents an explanation generated using the LIME technique. It visualizes the features that most significantly influenced the AI's decision regarding the loan application. The model predicts a 98% probability of rejection and a 2% probability of acceptance."
+        }
+    },
+    "chat_history_2025-01-06_02-30-13": {
+
+    },
+    "chat_history_2025-01-06_02-33-49": {
+        "explain the metrics and how trustworty the system is": {
+            "reasonability_score": "8" ,"explanation": "The user asked about the trustworthiness of the system based on its metrics. The system responded by providing a clear explanation of the F1-score and accuracy metrics, highlighting their significance and limitations. It also acknowledged that context matters when evaluating trustworthiness. This response demonstrates a good understanding of the user's query and provides relevant information to support their assessment."
+        }
+    },
+    "chat_history_2025-01-06_02-35-07": {
+        "how was the AI able to do this": {
+            "reasonability_score": "8" ,"explanation": "The user asks a general question about how the AI arrived at its outcome. The system's response is reasonable as it correctly identifies the LIME technique used and explains its function in highlighting important words contributing to the prediction. However, it could be improved by providing a more concrete example of how these words influenced the 'ASA' outcome."
+        }
+    },
+    "chat_history_2025-01-06_02-39-57": {
+        "Explain how the above was geenrated and what it tells us": {
+            "reasonability_score": "9" ,"explanation": "The explanation provided is generated using the LIME (Local Interpretable Model-agnostic Explanations) technique. This method helps in understanding the predictions made by an AI model by highlighting the most important words in the given text instance that contribute to the predicted outcome."
+        }
+    },
+    "chat_history_2025-01-06_13-55-29": {
+        "explain me what the image above mean": {
+            "reasonability_score": "8" ,"explanation": "This is a very reasonable answer for the user's question."
+        },
+        "what other way of explaining could I use ?": {
+            "reasonability_score": "9" ,"explanation": "This is a very reasonable answer as the user wants to explore different methods for understanding AI explanations. It shows they are actively seeking diverse perspectives and tools"
+        }
+    },
+    "chat_history_2025-01-06_13-59-22": {
+        "give me other explanation methods": {
+            "reasonability_score": "9" ,"explanation": "They are seeking to understand different methods for explaining AI models beyond the LIME technique already presented. The system's response provides a comprehensive overview of alternative methods like SHAP and counterfactual explanations, along with specific explainers available within the ISee platform."
+        }
+    },
+    "chat_history_2025-01-06_14-00-25": {
+
+    },
+    "chat_history_2025-01-06_14-06-17": {
+        "what does the measure mean ?": {
+            "reasonability_score": "8" ,"explanation": "This is a very reasonable answer for the user's question."
+        },
+        "explain how integrated gradients work in very simple terms": {
+            "reasonability_score": "8" ,"explanation": "This answer is reasonable as it shows a fundamental understanding of the Integrated Gradients technique. It's common for users to want a basic explanation before diving into more complex details."
+        }
+    },
+    "chat_history_2025-01-06_14-14-06": {
+        "give me insights about how lime explain that the result will be the same for similar instance": {
+            "reasonability_score": "8" ,"explanation": "LIME works by identifying the words in a text instance that have the most influence on the AI system's prediction. If similar instances contain those same words with similar context and frequency, the AI is likely to produce similar outcomes. The Isee Platform uses LIME explainers like '/Text/LIME' to show these important words and their positive or negative contributions to the prediction."
+        },        
+        "what is tf-idf here ?": {
+            "reasonability_score": "9" ,"explanation": "It measures how important a word is in a document compared to a larger collection of documents. Words that appear frequently in a specific document but less often overall have a higher TF-IDF score, indicating their significance. In this context, TF-IDF helps identify the most crucial words in the text instance for the AI system's prediction."
+        }
+    },
+    "chat_history_2025-01-06_14-30-56": {
+        "what do the colors mean when the result is different ?": {
+            "reasonability_score": "9" ,"explanation": "The system's response accurately explains the color coding used in the Integrated Gradients technique, linking it to the importance of image areas in the AI's decision-making process. The explanation is clear, concise, and helpful."
+        }
+    },
+    "chat_history_2025-01-06_15-05-27": {
+        "can you propose alternative explanation method ?": {
+            "reasonability_score": "8" ,"explanation": "The system response with alternative explainers was reasonable."
+        },
+        "que signifie unune influence negative sur le resultat ?": {
+            "reasonability_score": "9" ,"explanation": "A word with a negative influence on the result means that it contributes to decreasing the likelihood of the predicted outcome. In this context, words highlighted in blue have a negative impact on the prediction. This means they are associated with reducing the confidence in the predicted class. The influence of each word is determined by its weight or score, which indicates how much it affects the prediction either positively or negatively."
+        }
+    },
+    "chat_history_2025-01-06_16-34-05": {
+        "no": {
+            "reasonability_score": "6" ,"explanation": "The user's question is unclear but the response is moderately reasonable."
+        },
+        "quelle est l'influence des mots surlignes dans l'explication ci-dessus?": {
+            "reasonability_score": "9" ,"explanation": "The highlighted words in the explanation represent the terms that have the most influence on the model's prediction. Each word contributes positively or negatively to the predicted outcome. For example, words like 'planned', 'solution', and 'requires' have a significant influence on the classification of the instance. The scores next to each word indicate the relative importance of that word in the context of the prediction."
+        }
+    },
+    "chat_history_2025-01-09_16-52-50": {
+        "I didn't understand the description, only the details": {
+            "reasonability_score": "8" ,"explanation": "The user is indicating that they grasped the individual data points presented in the explanation but struggled to comprehend the overall narrative or purpose behind them. This suggests a need for clearer connections between the data elements and a more concise summary of the key takeaways."
+        }
+    },
+    "chat_history_2025-01-09_17-03-45": {
+        "What are the numbers in brackets in the third row? And can you improve the clarity of the explanation description?": {
+            "reasonability_score": "6" ,"explanation": "I've assigned an 6n because the AI's response is relevant to the user's inquiry"
+        },
+        "How reliable is this prediction?": {
+            "reasonability_score": "8" ,"explanation": "The user is asking about the trustworthiness of the model's prediction. The response provides a reasonable explanation by referencing the confidence score (1.00) and highlighting relevant keywords contributing to the prediction. It also acknowledges potential limitations and suggests considering additional context for validation."
+        }
+    },
+    "chat_history_2025-01-09_17-12-50": {
+        "what do precision and recall mean, and how do they relate to the overall accuracy?": {
+            "reasonability_score": "9" ,"explanation": "This is a very reasonable question.  Precision and recall are fundamental metrics in evaluating classification models, especially when dealing with imbalanced datasets. Understanding their relationship to overall accuracy is crucial for a comprehensive assessment of model performance."
+        }
+    },   
+    "chat_history_2025-01-09_17-24-45": {
+        "How can a loan application be decided based on the amount that you've paid back on the loan? That doesn't make any logical sense.": {
+            "reasonability_score": "5" ,"explanation": "It highlights their difficulty understanding the initial response and their need for a concrete data-based explanation."
+        },
+        "Don't give me the value in terms of the model parameters/features, give me the data value.": {
+            "reasonability_score": "7" ,"explanation": "The user is asking for a concrete data value that influences the loan decision, rather than a technical explanation based on model parameters. This is a reasonable request as it seeks a more understandable interpretation of the model's behavior.\"\n  },\n  \"Don't give me the value in terms of the model parameters/features, give me the data value."
+        }
+    },
+    "chat_history_2025-01-09_17-27-41": {
+        
+    },
+    
+    "chat_history_2025-01-10_10-49-09": {
+        
+    },
+    
+    "chat_history_2025-01-10_16-14-18": {
+        "hat is the sensor measuring?": {
+            "reasonability_score": "2" ,"explanation": "The chatbot's response indicates it lacks information about the specific sensor being measured. A more helpful response would identify the type of sensor or provide a general description of its function within the system."
+        },
+        "I still don't understand what the sensor is measuring. What is the picture of?": {
+            "reasonability_score": "9" ,"explanation": "The chatbot's response effectively explains the purpose of both images and provides a detailed description of the Integrated Gradients technique used for explanation."
+        }
+    },
+
+    "chat_history_2025-01-14_14-03-28": {
+        "What is fluidity": {
+            "reasonability_score": "8" ,"explanation": "The system's response provides a plausible interpretation of 'fluidity' within the context of the provided text. It correctly identifies fluidity as likely referring to a system or process that initiates activities and connects it to the workflow described in the AI outcome."
+        }
+    },
+    "chat_history_2025-01-14_14-07-38": {
+        "Please elaborate": {
+            "reasonability_score": "8" , "explanation": "The system's response provides a helpful elaboration on the initial LIME explanation. It clarifies how LIME works, its purpose in this context, and mentions the availability of a similar explainer within the ISee Platform. The response is relevant to the user's request and demonstrates an understanding of the user's need for further clarification."
+        }
+    }
+    
+}

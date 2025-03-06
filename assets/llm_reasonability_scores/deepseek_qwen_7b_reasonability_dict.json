@@ -1,0 +1,170 @@
+{
+    "chat_history_2024-12-10_14-55-00": {
+        "what other explanation do you suggest for my use case ?": {
+            "reasonability_score": "9" , "explanation": "For your use case, another explanation method you might consider is the SHAP (SHapley Additive exPlanations) technique. SHAP values provide a unified measure of feature importance, showing how each feature contributes to the prediction. This can help you understand the impact of each feature on the model's decision. In the ISee Platform, you can try out explainers like '/Tabular/TreeSHAPGlobal' and '/Tabular/TreeSHAPLocal' for multivariate tabular data, which utilize SHAP values to provide insights into feature contributions.\\n\\nAdditionally, LIME (Local Interpretable Model-agnostic Explanations) is a popular choice. It approximates the model locally with an interpretable model to explain individual predictions, which can be useful for understanding specific instances. The ISee Platform offers '/Tabular/LIME' for multivariate tabular data, which perturbs input data samples to train a simple model that approximates the prediction for the given instance.\\n\\nBoth methods offer insights into the model's decision-making process and can complement the Grad-CAM explanation by providing a different perspective on feature importance."
+        }
+    },
+    "chat_history_2024-12-11_08-07-05": {
+        "explain what is counterfactuals with an image": {
+            "reasonability_score": "10" ,"explanation": "he explanation accurately describes counterfactuals as inputs that alter model predictions by changing minimal data, supported by a clear example and references to reliable tools like NICE and DicePublic."
+        }
+    },
+    "chat_history_2024-12-12_08-16-47": {
+        "what is the difference between SHAP and LIME": {
+            "reasonability_score": "9" ,"explanation": "<div>\\n  <p>SHAP (SHapley Additive exPlanations) and LIME (Local Interpretable Model-agnostic Explanations) are both popular techniques for explaining machine learning models, but they have some key differences:</p>\\n  <ul>\\n    <li><strong>SHAP:</strong>\\n      <ul>\\n        <li>Based on cooperative game theory and Shapley values, which provide a unified measure of feature importance.</li>\\n        <li>Considers all possible feature combinations, making it theoretically sound and consistent.</li>\\n        <li>Can be computationally expensive due to the need to evaluate many combinations.</li>\\n        <li>Provides global and local interpretability, offering insights into the model as a whole and individual predictions.</li>\\n        <li>In the ISee Platform, you can explore SHAP-based explainers such as '/Tabular/TreeSHAPGlobal' and '/Tabular/TreeSHAPLocal' for tabular data, which provide global and local feature influence explanations respectively.</li>\\n      </ul>\\n    </li>\\n    <li><strong>LIME:</strong>\\n      <ul>\\n        <li>Focuses on local interpretability by approximating the model with a simpler, interpretable model around a specific prediction.</li>\\n        <li>Uses perturbations of the input data to understand the model's behavior in the vicinity of a particular instance.</li>\\n        <li>Generally faster than SHAP as it does not require evaluating all feature combinations.</li>\\n        <li>May not provide as consistent results as SHAP due to its reliance on local approximations.</li>\\n        <li>The ISee Platform offers LIME-based explainers such as '/Tabular/LIME' for tabular data, which perturbs input data samples to train a simple model that approximates the prediction for the given instance.</li>\\n      </ul>\\n    </li>\\n  </ul>\\n  <p>Both methods aim to make AI models more transparent and understandable, but the choice between them depends on the specific needs for interpretability and computational resources. You can try out these explainers on the ISee Platform to better understand their functionalities.</p>\\n</div>"
+        }
+    },
+    "chat_history_2024-12-13_10-11-29": {
+        "give me 2 other types of explanation of the result": {
+            "reasonability_score": "10" ,"explanation": "<div>\\n    <p>Here are two other types of explanations for the AI system's result:</p>\\n    <ol>\\n        <li>\\n            <strong>Saliency Maps:</strong> This method highlights the most important pixels in the image that contribute to the AI's decision. It provides a visual representation of which parts of the image are most influential in the prediction. The ISee Platform offers several saliency map explainers, such as '/Images/RISE', '/Images/HSIC', and '/Images/Sobol', which you can try out to understand the model's behavior better.\\n        </li>\\n        <li>\\n            <strong>SHAP (SHapley Additive exPlanations):</strong> This technique assigns each feature an importance value for a particular prediction. It helps in understanding the contribution of each feature to the final decision, offering a more detailed insight into the model's behavior. The ISee Platform includes SHAP-based explainers like '/Images/KernelSHAP' and '/Tabular/TreeSHAPGlobal', which can be used to explore feature contributions in detail.\\n        </li>\\n    </ol>\\n</div>"
+        }
+    },    
+    "chat_history_2024-12-15_12-31-56": {
+        "I need a table of all other alternatives explainers that could be used instead of this": {
+            "reasonability_score": "10" ,"explanation": "The ISee Platform offers several alternative explainability techniques, including SHAP, DeepLIFT, Integrated Gradients, Anchors, and Counterfactuals. Each provides unique insights into model behavior."
+        }
+    },
+    "chat_history_2025-01-06_02-20-55": {
+        "What is the mat behind it": {
+            "reasonability_score": "10" ,"explanation": "<div>\\nThe explanation provided uses the Structural Similarity Index Measure (SSIM) to find and present the nearest neighbors of the original image. These neighbors are examples that are visually similar to the original image and have similar AI system outcomes. The images shown include the original image and three neighbors, each with a similarity score and prediction value. This helps in understanding how the AI system perceives similarity and makes predictions based on visual features.\\n\\nIn the Isee Platform, you can explore various explainers that provide insights into image classification tasks. For instance, the '/Images/RISE' explainer uses randomly masked versions of the input image to deduce critical areas, while the '/Images/HSIC' explainer assesses the dependence between the output and patches of the input. These explainers, among others, can help you understand the model's decision-making process by highlighting the most relevant pixels to the target class. You can try these explainers to gain a deeper understanding of how your AI system interprets images.\\n</div>"
+        }
+    },
+    "chat_history_2025-01-06_02-23-29": {
+        "Explain hwo the expmantion was generated": {
+            "reasonability_score": "9" ,"explanation": "The system's response accurately explains that Integrated Gradients were used to generate the explanation for image predictions. It highlights the method's purpose in identifying input regions' importance and provides additional explainers available on the Isee Platform, offering users options to explore alternative techniques."
+        }
+    },
+    "chat_history_2025-01-06_02-26-15": {
+        "How did you come to this conclusion": {
+            "reasonability_score": "8" ,"explanation": "The explanation provided by the AI system used the DisCERN technique, which involved analyzing various features of the loan application such as loan amount, total payment, interest rate, and other factors. It compared these features against a set of counterfactuals to determine the likelihood of different outcomes. The conclusion was reached based on this analysis, highlighting why the loan was predicted to be rejected."
+        },
+        "Explain whats shown in the image above": {
+            "reasonability_score": "8" ,"explanation": "The explanation provided by the AI system used the LIME technique, which highlighted the features that most significantly influenced the decision regarding the loan application. The prediction probabilities were clearly stated as a 98% chance of rejection and a 2% chance of acceptance. The feature contributions were detailed, listing factors that could lead to either outcome, along with a table showing the specific values for each feature in the loan application instance."
+        }
+    },
+    "chat_history_2025-01-06_02-30-13": {
+
+    },
+    "chat_history_2025-01-06_02-33-49": {
+        "explain the metrics and how trustworty the system is": {
+            "reasonability_score": "8" ,"explanation": "The response provides relevant and comprehensive information about the AI system's performance metrics. It explains how these metrics, such as F1-score (macro) at 78% and Accuracy at 79%, indicate the system's reliability. The explanation is clear, well-structured, and demonstrates a good understanding of the domain."
+        }
+    },
+    "chat_history_2025-01-06_02-35-07": {
+        "how was the AI able to do this": {
+            "reasonability_score": "9" ,"explanation": "The AI system used the LIME (Local Interpretable Model-agnostic Explanations) technique to explain its decision. In the provided explanation, the AI highlighted specific words from the text that contributed to the outcome. Words like 'asset,' 'assurance,' and 'required' had significant positive contributions to the prediction of the class 'ASA.' The highlighted words indicate their importance in influencing the AI's decision, showing both positive and negative impacts on the outcome. In the ISee Platform, we have an explainer named '/Text/LIME/' that provides similar functionality. This explainer perturbs the input data samples to train a simple model that approximates the prediction for the given instance and similar ones. It displays a plot with the most important words for the given instance, showing both positive and negative contributions of each word to the predicted outcome. Users can try out this explainer to gain insights into the AI's decision-making process."
+        }
+    },
+    "chat_history_2025-01-06_02-39-57": {
+        "Explain how the above was geenrated and what it tells us": {
+            "reasonability_score": "9" ,"explanation": "The explanation provided uses a structured table to present information about model predictions, including similarity scores, key keywords, their relevance per class, and overlap indicators. The inclusion of visual elements like color coding (green for presence, red for absence) enhances clarity. The table is well-organized but could benefit from additional context or examples in some sections to improve understanding."
+        }
+    },
+    "chat_history_2025-01-06_13-55-29": {
+        "explain me what the image above mean": {
+            "reasonability_score": "9" ,"explanation": "The answer provides a comprehensive list of various explanation techniques such as feature importance, decision trees, rule-based explanations, counterfactuals, and visualizations. These are all relevant and well-explained."
+        },
+        "what other way of explaining could I use ?": {
+            "reasonability_score": "9" ,"explanation": "The answer repeats the same explanation techniques as before but reinforces their relevance and effectiveness in understanding AI models."
+        }
+    },
+    "chat_history_2025-01-06_13-59-22": {
+        "give me other explanation methods": {
+            "reasonability_score": "8" ,"explanation": "The system repeats the same detailed response without adding new information. While it provides useful content, it lacks variety or additional insights compared to its first answer."
+        }
+    },
+    "chat_history_2025-01-06_14-00-25": {
+
+    },
+    "chat_history_2025-01-06_14-06-17": {
+        "what does the measure mean ?": {
+            "reasonability_score": "4" ,"explanation": "System did not provide a sufficient response due to ambiguity of question"
+        },
+        "explain how integrated gradients work in very simple terms": {
+            "reasonability_score": "8" ,"explanation": "The response provides a clear explanation using an image analogy and mentions additional techniques. However, it has some redundancy which could be improved."
+        }
+    },
+    "chat_history_2025-01-06_14-14-06": {
+        "give me insights about how lime explain that the result will be the same for similar instance": {
+            "reasonability_score": "8" ,"explanation": "LIME (Local Interpretable Model-agnostic Explanations) works by creating a simplified model around the instance of interest. It identifies the most influential words in the text and how they affect the prediction. For similar instances, if these key words appear with similar context and frequency, the AI system is likely to produce the same or similar outcomes."
+        },        
+        "what is tf-idf here ?": {
+            "reasonability_score": "8" ,"explanation": "TF-IDF stands for Term Frequency-Inverse Document Frequency. It measures how important a word is in a document relative to a corpus. The score increases with the term's frequency in the document and decreases with its frequency in the corpus, helping to highlight significant words."
+        }
+    },
+    "chat_history_2025-01-06_14-30-56": {
+        "what do the colors mean when the result is different ?": {
+            "reasonability_score": "10" ,"explanation": "The colors in the explanation image represent the attributions for the target class. In the second column of the subplot, the colors indicate the importance of different areas of the image in the AI system's decision-making process. Warmer colors (like yellow and red) typically highlight areas that have a higher impact on the prediction, while cooler colors (like blue) indicate less influence. This visualization helps in understanding which parts of the image contributed most to the AI's outcome."
+        }
+    },
+    "chat_history_2025-01-06_15-05-27": {
+        "can you propose alternative explanation method ?": {
+            "reasonability_score": "9" ,"explanation": "Alternative explainers given are relevant to the generated image context."
+        },
+        "que signifie unune influence negative sur le resultat ?": {
+            "reasonability_score": "10" ,"explanation": "A word with a negative influence on the result means that it contributes to decreasing the likelihood of the predicted outcome. In the context of the explanation provided, words highlighted in blue have a negative impact on the prediction. This means that these words are associated with reducing the confidence in the predicted class. The influence of each word is determined by its weight or score, which indicates how much it affects the prediction either positively or negatively."
+        }
+    },
+    "chat_history_2025-01-06_16-34-05": {
+        "no": {
+            "reasonability_score": "7" ,"explanation": "Question given to the system was unclear but the response was suitable explaining how the explantions were generated by the system."
+        },
+        "quelle est l'influence des mots surlignes dans l'explication ci-dessus?": {
+            "reasonability_score": "10" ,"explanation": "Les mots surlign\u00e9s dans l'explication repr\u00e9sentent les termes les plus influents dans la pr\u00e9diction du mod\u00e8le. Chaque mot a une contribution positive ou n\u00e9gative \u00e0 l'issue pr\u00e9dite. Par exemple, les mots comme \\\"planned\\\", \\\"solution\\\", et \\\"requires\\\" ont une influence significative sur la classification de l'instance. Les scores \u00e0 c\u00f4t\u00e9 de chaque mot indiquent l'importance relative de ce mot dans le contexte de la pr\u00e9diction"
+        }
+    },
+    "chat_history_2025-01-09_16-52-50": {
+        "I didn't understand the description, only the details": {
+            "reasonability_score": "8" ,"explanation": "The system's answer was clear and helpful, providing a breakdown of key points such as confidence scores, keywords, similar texts, and overlapping words. This made it easier to understand how the AI model works"
+        }
+    },
+    "chat_history_2025-01-09_17-03-45": {
+        "What are the numbers in brackets in the third row? And can you improve the clarity of the explanation description?": {
+            "reasonability_score": "8" ,"explanation": "The system's answer clarified the user's question concisely."
+        },
+        "How reliable is this prediction?": {
+            "reasonability_score": "9" ,"explanation": "The prediction reliability can be assessed by examining the confidence scores and the features used in the model. In this case, the prediction for the class \\\"DR_\\\" is shown with a high confidence score of 1.00, indicating strong certainty in this outcome. The highlighted words in the text, such as \\\"work,\\\" \\\"requiredby,\\\" and \\\"A55,\\\" contribute to this prediction. While the individual feature contributions may appear small, they collectively influence the model's decision. The model's reliability is supported by the consistent use of these features across similar instances, as indicated by the explanation. If you have concerns about the reliability, it might be useful to consider additional context or data to further validate the prediction."
+        }
+    },
+    "chat_history_2025-01-09_17-12-50": {
+        "what do precision and recall mean, and how do they relate to the overall accuracy?": {
+            "reasonability_score": "8" ,"explanation": "It asks for definitions of precision and recall and their relationship with accuracy, which are key concepts in evaluating AI models."
+        }
+    },   
+    "chat_history_2025-01-09_17-24-45": {
+        "How can a loan application be decided based on the amount that you've paid back on the loan? That doesn't make any logical sense.": {
+            "reasonability_score": "9" ,"explanation": "It mentions that the threshold for the change in decision is based on 'total_pymnt' with a data value of approximately 0.06. The explanation makes sense because it ties back to the feature's influence on the decision. "
+        },
+        "Don't give me the value in terms of the model parameters/features, give me the data value.": {
+            "reasonability_score": "7" ,"explanation": "The threshold for the change in decision is based on 'total_pymnt' with a data value of approximately 0.06."
+        }
+    },
+    "chat_history_2025-01-09_17-27-41": {
+        
+    },
+    
+    "chat_history_2025-01-10_10-49-09": {
+        
+    },
+    
+    "chat_history_2025-01-10_16-14-18": {
+        "hat is the sensor measuring?": {
+            "reasonability_score": "1" ,"explanation": "The question is valid but the system's response was unhelpful."
+        },
+        "I still don't understand what the sensor is measuring. What is the picture of?": {
+            "reasonability_score": "10" ,"explanation": "The system provided a detailed explanation."
+        }
+    },
+
+    "chat_history_2025-01-14_14-03-28": {
+        "What is fluidity": {
+            "reasonability_score": "9" ,"explanation": "The explanation provided by the AI system for 'What is fluidity' was clear and detailed. It used an image-based plot to show how different words contributed to the predicted outcome, which helped in understanding the concept effectively."
+        }
+    },
+    "chat_history_2025-01-14_14-07-38": {
+        "Please elaborate": {
+            "reasonability_score": "4" , "explanation": "The system provided an explanation of how LIME works and its application in text classification models, which is accurate. However, it did not address the specific context or relevance to the telecom notes diagnosis case, making it less helpful for the user's needs."
+        }
+    }
+    
+}

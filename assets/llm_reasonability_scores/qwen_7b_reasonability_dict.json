@@ -1,0 +1,170 @@
+{
+    "chat_history_2024-12-10_14-55-00": {
+        "what other explanation do you suggest for my use case ?": {
+            "reasonability_score": "7" , "explanation": "The AI system's performance in this category is rated 7 out of 10."
+        }
+    },
+    "chat_history_2024-12-11_08-07-05": {
+        "explain what is counterfactuals with an image": {
+            "reasonability_score": "7" ,"explanation": "The AI model predicted a low probability of success for the loan application due to certain factors. Increasing the applicant's income could potentially improve the prediction and increase the likelihood of approval."
+        }
+    },
+    "chat_history_2024-12-12_08-16-47": {
+        "what is the difference between SHAP and LIME": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        }
+    },
+    "chat_history_2024-12-13_10-11-29": {
+        "give me 2 other types of explanation of the result": {
+            "reasonability_score": "7" ,"explanation": "The AI system's decision was influenced by the presence of a specific color in the image. This color had a high correlation with the target label, making it a crucial factor in the prediction."
+        }
+    },    
+    "chat_history_2024-12-15_12-31-56": {
+        "I need a table of all other alternatives explainers that could be used instead of this": {
+            "reasonability_score": "7" ,"explanation": "The model's prediction for this input is X=3.4, and the reasonableness score of 7 indicates that the prediction is relatively reasonable within the context of the model's capabilities."
+        }
+    },
+    "chat_history_2025-01-06_02-20-55": {
+        "What is the mat behind it": {
+            "reasonability_score": "7" ,"explanation": "This explanation has a reasonability score of 7 out of 10."
+        }
+    },
+    "chat_history_2025-01-06_02-23-29": {
+        "Explain hwo the expmantion was generated": {
+            "reasonability_score": "7" ,"explanation": "The AI system considered several regions in the input image that had a high impact on the target class. These areas showed strong color gradients or specific patterns associated with the class. The score of 7 indicates that the explanation provided is reasonable and provides insight into how the model arrived at its prediction."
+        }
+    },
+    "chat_history_2025-01-06_02-26-15": {
+        "How did you come to this conclusion": {
+            "reasonability_score": "7" ,"explanation": "The detailed explanation for the first clarification question is as follows: Feature A contributed significantly to rejection due to its low value. Feature B played a role in acceptance, with moderate income levels supporting the loan."
+        },
+        "Explain whats shown in the image above": {
+            "reasonability_score": "7" ,"explanation": "This explanation has a reasonability score of 7 out of 10."
+        }
+    },
+    "chat_history_2025-01-06_02-30-13": {
+
+    },
+    "chat_history_2025-01-06_02-33-49": {
+        "explain the metrics and how trustworty the system is": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        }
+    },
+    "chat_history_2025-01-06_02-35-07": {
+        "how was the AI able to do this": {
+            "reasonability_score": "7" ,"explanation": "The AI system highlighted specific words from the text that contributed positively to the prediction of class 'ASA'. Words like 'asset,' 'assurance,' and 'required' had a score of 7, indicating their significant role in the decision-making process."
+        }
+    },
+    "chat_history_2025-01-06_02-39-57": {
+        "Explain how the above was geenrated and what it tells us": {
+            "reasonability_score": "7" ,"explanation": "This score of 7 indicates a reasonable level of understanding based on the provided information."
+        }
+    },
+    "chat_history_2025-01-06_13-55-29": {
+        "explain me what the image above mean": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        },
+        "what other way of explaining could I use ?": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        }
+    },
+    "chat_history_2025-01-06_13-59-22": {
+        "give me other explanation methods": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        }
+    },
+    "chat_history_2025-01-06_14-00-25": {
+
+    },
+    "chat_history_2025-01-06_14-06-17": {
+        "what does the measure mean ?": {
+            "reasonability_score": "5" ,"explanation": "The AI system's performance in this category is rated 5 out of 10."
+        },
+        "explain how integrated gradients work in very simple terms": {
+            "reasonability_score": "5" ,"explanation": "The AI system's performance in this category is rated 5 out of 10."
+        }
+    },
+    "chat_history_2025-01-06_14-14-06": {
+        "give me insights about how lime explain that the result will be the same for similar instance": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        },        
+        "what is tf-idf here ?": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        }
+    },
+    "chat_history_2025-01-06_14-30-56": {
+        "what do the colors mean when the result is different ?": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        }
+    },
+    "chat_history_2025-01-06_15-05-27": {
+        "can you propose alternative explanation method ?": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        },
+        "que signifie unune influence negative sur le resultat ?": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        }
+    },
+    "chat_history_2025-01-06_16-34-05": {
+        "no": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        },
+        "quelle est l'influence des mots surlignes dans l'explication ci-dessus?": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        }
+    },
+    "chat_history_2025-01-09_16-52-50": {
+        "I didn't understand the description, only the details": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        }
+    },
+    "chat_history_2025-01-09_17-03-45": {
+        "What are the numbers in brackets in the third row? And can you improve the clarity of the explanation description?": {
+            "reasonability_score": "7.5" ,"explanation": "The AI system's performance in this category is rated 7.5 out of 10."
+        },
+        "How reliable is this prediction?": {
+            "reasonability_score": "7.5" ,"explanation": "The AI system's performance in this category is rated 7.5 out of 10."
+        }
+    },
+    "chat_history_2025-01-09_17-12-50": {
+        "what do precision and recall mean, and how do they relate to the overall accuracy?": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        }
+    },   
+    "chat_history_2025-01-09_17-24-45": {
+        "How can a loan application be decided based on the amount that you've paid back on the loan? That doesn't make any logical sense.": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        },
+        "Don't give me the value in terms of the model parameters/features, give me the data value.": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        }
+    },
+    "chat_history_2025-01-09_17-27-41": {
+        
+    },
+    
+    "chat_history_2025-01-10_10-49-09": {
+        
+    },
+    
+    "chat_history_2025-01-10_16-14-18": {
+        "hat is the sensor measuring?": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        },
+        "I still don't understand what the sensor is measuring. What is the picture of?": {
+            "reasonability_score": "7" ,"explanation": "The AI system's performance in this category is rated 7 out of 10."
+        }
+    },
+
+    "chat_history_2025-01-14_14-03-28": {
+        "What is fluidity": {
+            "reasonability_score": "7" ,"explanation": "The AI system's explanation for the activity initiated by fluidity is as follows: It refers to a process where an action has been raised and passed on to assurance. This part of the workflow or task management system handles specific activities in a workflow context."
+        }
+    },
+    "chat_history_2025-01-14_14-07-38": {
+        "Please elaborate": {
+            "reasonability_score": "7" , "explanation": "he explanation for this clarification is: The important words contributing to the AI prediction were 'notes' and 'pass.' These words had a positive impact, indicating that the AI likely classified the instance as 'HLR' due to these specific details."
+        }
+    }
+    
+}
