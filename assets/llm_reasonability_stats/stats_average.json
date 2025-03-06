@@ -1,0 +1,70 @@
+{
+    "what other explanation do you suggest for my use case ?": {
+        "average": 8.335714285714285    },
+    "explain what is counterfactuals with an image": {
+        "average": 8.302857142857144    },
+    "what is the difference between SHAP and LIME": {
+        "average": 9.035714285714286    },
+    "give me 2 other types of explanation of the result": {
+        "average": 8.714285714285714    },
+    "I need a table of all other alternatives explainers that could be used instead of this": {
+        "average": 8.67142857142857    },
+    "What is the mat behind it": {
+        "average": 6.935714285714286    },
+    "Explain how the expmantion was generated": {
+        "average": 8.535714285714286    },
+    "How did you come to this conclusion": {
+        "average": 8.49    },
+    "Explain whats shown in the image above": {
+        "average": 8.714285714285714    },
+    "explain the metrics and how trustworty the system is": {
+        "average": 8.278571428571428    },
+    "how was the AI able to do this": {
+        "average": 8.314285714285715    },
+    "Explain how the above was geenrated and what it tells us": {
+        "average": 8.728571428571428    },
+    "explain me what the image above mean": {
+        "average": 8.714285714285714    },
+    "what other way of explaining could I use ?": {
+        "average": 8.678571428571429    },
+    "give me other explanation methods": {
+        "average": 8.614285714285714    },
+    "what does the measure mean ?": {
+        "average": 8.592857142857143    },
+    "explain how integrated gradients work in very simple terms": {
+        "average": 8.42142857142857    },
+    "give me insights about how lime explain that the result will be the same for similar instance": {
+        "average": 8.45    },
+    "what is tf-idf here ?": {
+        "average": 8.714285714285714    },
+    "what do the colors mean when the result is different ?": {
+        "average": 8.842857142857143    },
+    "can you propose alternative explanation method ?": {
+        "average": 8.607142857142858    },
+    "que signifie un mot ayant une influence negative sur le resultat ?": {
+        "average": 8.714285714285714    },
+    "no": {
+        "average": 6.8428571428571425    },
+    "quelle est l'influence des mots surlignes dans l'explication ci-dessus?": {
+        "average": 8.621428571428572    },
+    "I didn't understand the description, only the details": {
+        "average": 8.071428571428571    },
+    "What are the numbers in brackets in the third row? And can you improve the clarity of the explanation description?": {
+        "average": 8.321428571428571    },
+    "How reliable is this prediction?": {
+        "average": 8.192857142857143    },
+    "what do precision and recall mean, and how do they relate to the overall accuracy?": {
+        "average": 9.05    },
+    "How can a loan application be decided based on the amount that you've paid back on the loan? That doesn't make any logical sense.": {
+        "average": 7.671428571428572    },
+    "Don't give me the value in terms of the model parameters/features, give me the data value.": {
+        "average": 6.885714285714286    },
+    "What is the sensor measuring?": {
+        "average": 3.3142857142857145    },
+    "I still don't understand what the sensor is measuring. What is the picture of?": {
+        "average": 7.557142857142857    },
+    "What is fluidity": {
+        "average": 7.871428571428571    },
+    "Please elaborate": {
+        "average": 8.514285714285714    }
+}
