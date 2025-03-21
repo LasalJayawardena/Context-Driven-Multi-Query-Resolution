@@ -1,6 +1,6 @@
-# Context Driven Multi-Query Resolution for iSee: Enhancing Explainability through Interactive Clarifications
+# Context Driven Multi-Query Resolution using LLM-RAG to support the Revision of Explainability needs
 
-This repository contains code and assets related to the paper titled "Context Driven Multi-Query Resolution for iSee: Enhancing Explainability through Interactive Clarifications". 
+This repository contains code and assets related to the paper titled "Context Driven Multi-Query Resolution using LLM-RAG to support the Revision of Explainability needs". 
 
 ## Keywords
 
